@@ -1,1 +1,4 @@
-/home/klose/Documents/programming/html/klose911.github.io/src/apue/Makefile.am
+SUBDIRS=src/lib src/basics src/file_IO src/file_directory src/stdio src/datafiles src/environ src/process src/signal src/termios src/procgroup src/aio src/ipc
+CURRENTPATH=$(shell /bin/pwd)
+INCLUDES=-I$(CURRENTPATH)/include
+export INCLUDES
