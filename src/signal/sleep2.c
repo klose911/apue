@@ -1,6 +1,7 @@
 #include <setjmp.h>
 #include <signal.h>
 #include <unistd.h>
+#include "apue.h"
 
 static jmp_buf env_alrm;
 

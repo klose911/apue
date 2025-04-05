@@ -93,7 +93,8 @@ int pclose(FILE *fp)
                 return(-1);		/* fp wasn't opened by popen() */
         }
 
-        childpid[fd] = NULL;
+        // childpid[fd] = NULL;
+        childpid[fd] = 0;
         if (fclose(fp) == EOF)
                 return(-1);
 

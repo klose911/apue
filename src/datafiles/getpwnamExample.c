@@ -2,6 +2,7 @@
 #include <pwd.h>
 #include <stddef.h>
 #include <string.h>
+#include "apue.h"
 
 static struct passwd *retrievePasswd(const char *name);
 

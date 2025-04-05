@@ -1,4 +1,6 @@
 #include <setjmp.h>
+#include <stdio.h>
+#include "apue.h"
 
 static void f1(int, int, int);
 static void f2(void);

@@ -1,4 +1,7 @@
 #include "apue.h"
+#include <sys/wait.h>
+
+extern int mysystem(const char *cmdstring);
 
 static void sig_int(int signo)
 {
